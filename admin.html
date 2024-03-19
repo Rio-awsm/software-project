@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admin Section</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Font Awesome -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
+    <style>
+        body {
+            background-color: #f8f9fa; /* Light background color */
+        }
+
+        .admin-container {
+            max-width: 1000px;
+            margin: 0 auto;
+            padding: 40px;
+            background-color: #ffffff; /* White background color */
+            border-radius: 10px;
+            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+            margin-top: 50px;
+        }
+
+        .admin-heading {
+            text-align: center;
+            margin-bottom: 30px;
+        }
+
+        .vehicle-card {
+            margin-bottom: 20px;
+            padding: 20px;
+            border: 1px solid #dee2e6;
+            border-radius: 10px;
+            position: relative;
+        }
+
+        .vehicle-actions {
+            position: absolute;
+            bottom: 10px;
+            right: 10px;
+        }
+
+        .action-btn {
+            margin-left: 5px;
+        }
+    </style>
+</head>
+<body>
+    <div class="admin-container">
+        <h2 class="admin-heading">Admin Section</h2>
+        <div class="vehicle-card">
+            <h3>Vehicle 1</h3>
+            <div class="vehicle-details">
+                <p><strong>Type:</strong> Car</p>
+                <p><strong>Model:</strong> Sedan</p>
+                <p><strong>Color:</strong> Black</p>
+                <p><strong>Owner:</strong> John Doe</p>
+                <p><strong>License Plate:</strong> ABC1234</p>
+                <p><strong>Registration Date:</strong> January 1, 2023</p>
+                <p><strong>License Expiry:</strong> January 1, 2025</p>
+                <p><strong>Insurance Expiry:</strong> January 1, 2026</p>
+            </div>
+            <div class="vehicle-actions">
+                <button class="btn btn-primary action-btn"><i class="fas fa-edit"></i> Edit</button>
+                <button class="btn btn-danger action-btn"><i class="fas fa-trash"></i> Delete</button>
+            </div>
+        </div>
+        <div class="vehicle-card">
+            <h3>Vehicle 2</h3>
+            <div class="vehicle-details">
+                <p><strong>Type:</strong> Motorcycle</p>
+                <p><strong>Model:</strong> Sportbike</p>
+                <p><strong>Color:</strong> Red</p>
+                <p><strong>Owner:</strong> Jane Doe</p>
+                <p><strong>License Plate:</strong> XYZ5678</p>
+                <p><strong>Registration Date:</strong> February 1, 2023</p>
+                <p><strong>License Expiry:</strong> February 1, 2025</p>
+                <p><strong>Insurance Expiry:</strong> February 1, 2026</p>
+            </div>
+            <div class="vehicle-actions">
+                <button class="btn btn-primary action-btn"><i class="fas fa-edit"></i> Edit</button>
+                <button class="btn btn-danger action-btn"><i class="fas fa-trash"></i> Delete</button>
+            </div>
+        </div>
+        <div class="vehicle-card">
+            <h3>Vehicle 3</h3>
+            <div class="vehicle-details">
+                <p><strong>Type:</strong> Truck</p>
+                <p><strong>Model:</strong> Pickup</p>
+                <p><strong>Color:</strong> Blue</p>
+                <p><strong>Owner:</strong> Michael Smith</p>
+                <p><strong>License Plate:</strong> DEF5678</p>
+                <p><strong>Registration Date:</strong> March 1, 2023</p>
+                <p><strong>License Expiry:</strong> March 1, 2025</p>
+                <p><strong>Insurance Expiry:</strong> March 1, 2026</p>
+            </div>
+            <div class="vehicle-actions">
+                <button class="btn btn-primary action-btn"><i class="fas fa-edit"></i> Edit</button>
+                <button class="btn btn-danger action-btn"><i class="fas fa-trash"></i> Delete</button>
+            </div>
+        </div>
+    </div>
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- Font Awesome -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/js/all.min.js"></script>
+</body>
+</html>
